@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "basefinder",
+  "version": "${version}",
+  "name": "Base Finder",
+  "description": "Client-side freecam, chunk signature flagging and block ESP.",
+  "authors": [],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.basefinder.BaseFinderClient"]
+  },
+  "mixins": ["basefinder.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
